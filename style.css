@@ -1,11 +1,14 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
 body {
     background-color: #050526;
     color: white;
     -ms-overflow-style: none; /* Edge, Internet Explorer */
     scrollbar-width: none; /* Firefox */
     overflow-y: scroll;
-    
-
 }
 
 body::-webkit-scrollbar {
@@ -20,6 +23,7 @@ nav {
     width: 45%;
     margin: 15% auto;
     text-align: center;
+    font-weight: 500;
 }
 
 .jumbo-container {
@@ -28,7 +32,7 @@ nav {
     align-items: center;
 }
 
-#img-holder {
+/* #img-holder {
     background-color: rgb(142, 149, 151);
     border-radius: 50%;
     margin: 20px;
@@ -37,8 +41,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-  
 }
+   */
 img {
     border-radius: 50%;
     height: 200px;
@@ -54,11 +58,12 @@ a {
 }
 
 #projects-container {
-    margin: 100px auto;
-    display: flex;
     justify-content: space-around;
-    border: solid red 10px;
+    align-items: center;
+    border: solid white 10px;
     height: 50vh;
+    margin: 15% auto;
+
     
 }
 .projects {
