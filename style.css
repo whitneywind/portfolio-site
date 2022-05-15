@@ -69,7 +69,6 @@ h2 {
 }
 .projects {
    text-align: center;
-
    
 }
 
@@ -98,4 +97,8 @@ img {
 
 #contactDiv a {
     font-size: 2rem;
+}
+
+.project-title {
+    padding: 7% 0 5%;
 }
