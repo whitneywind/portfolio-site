@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #050526;
+    background-color: #395fb0;
     color: white;
     -ms-overflow-style: none; /* Edge, Internet Explorer */
     scrollbar-width: none; /* Firefox */
@@ -16,14 +16,13 @@ body::-webkit-scrollbar {
     }
 
 nav {
-    background-color: black;
+    background-color: rgb(48, 47, 52);
 }
 
 .jumbotron {
     width: 45%;
-    margin: 15% auto;
+    margin: 10% auto;
     text-align: center;
-    font-weight: 500;
 }
 
 .jumbo-container {
@@ -43,7 +42,7 @@ nav {
     align-items: center;
 }
    */
-img {
+#avatarImg {
     border-radius: 50%;
     height: 200px;
     width: 200px;
@@ -53,6 +52,10 @@ a {
     color: white !important;
 }
 
+h2 {
+    font-size: 2rem;
+}
+
 #page2 {
     margin: 25% auto;
 }
@@ -60,12 +63,39 @@ a {
 #projects-container {
     justify-content: space-around;
     align-items: center;
-    border: solid white 10px;
-    height: 50vh;
-    margin: 15% auto;
-
     
+    margin: 15% auto;
+    border-radius: 10px;
 }
 .projects {
    text-align: center;
+
+   
+}
+
+img {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+}
+
+#page3 {
+    margin: 25% auto 0;
+}
+
+#page1arrow {
+    margin-top: 16%;
+}
+
+#contactDiv {
+    margin: 30% 0;
+}
+
+#contactDiv h3 {
+    padding-bottom: 100px;
+    font-size: 2rem;
+}
+
+#contactDiv a {
+    font-size: 2rem;
 }

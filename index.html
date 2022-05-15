@@ -22,14 +22,14 @@
                 <li class="nav-item">
                   <a class="nav-link active" href="#">home</a>
                 </li>
-                <li class="nav-item">
+               <!-- <li class="nav-item">
                   <a class="nav-link" href="#">about</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                   <a class="nav-link" href="#page2">projects</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link">contact</a>
+                  <a class="nav-link" href="#page3">contact</a>
                 </li>
               </ul>
         </nav>
@@ -39,44 +39,78 @@
         <div class="jumbotron jumbotron-fluid">
              <div class="container jumbo-container d-flex">
                 <h1 class="display-4" id="name-display">Whitney Gould</h1>
-                <p class="lead">This is a modified jumbotron</p>
-                <img src="avataaars copy.png" class="mt-3 mb-5" />
-                <p>Bootstrap primarily uses the following media query ranges—or breakpoints—in our source Sass files for our layout, grid system, and components.</p>
+                <p class="lead">Front End Developer</p>
+                <img id="avatarImg" src="avataaars copy.png" class="mt-3 mb-5" />
+                <p><b>Technologies:</b><br>JavaScript<br>HTML5 + CSS3<br>Bootstrap<br>Git & GitHub</p>
+                <!-- in progress: React, React Native, Node.js, Tailwind-->
+                
             </div>
+            <a href="#page2"><svg id="page1arrow" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-down-square" viewbox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.5 2.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
+              </svg>
+            </a>
         </div>
+        
+        
     </section>
 
     <section id="page2">
-        <div>
-            <h2 class="text-center">projects</h2>
-            <hr class="my-5">
-            <div class="container d-flex row col-lg-8" id="projects-container">
-                <div id="project1" class="projects col-sm">
-                    <h3>project name</h3>
-                    <div>project image</div>
+        <div class="text-center">
+            <h2 class="text-center">PROJECTS</h2>
+            <hr class="my-3">
+            <div class="container container-fluid d-flex row col-xs-10 col-lg-7" id="projects-container">
+                <div id="project1" class="projects col-sm-6 col-lg-3">
+                    <img src="coffeeshopApp.jpg" class="img-fluid">
+                    <h3>Coffeeshop Vibes</h3>
+                    <h6>under construction &#128295</h6>
                     <div class="project-links">
-                        <a href="#"><p>see in action</p></a>
-                        <a href="#"><p>see on github</p></a>
+                        <!-- <a href="#"><p>see in action</p></a> -->
+                        <a href="https://github.com/whitneywind/coffeeshop-bg" target="_blank"><p>see on github</p></a>
                     </div>
                 </div>
-                <div id="project2" class="projects col-sm">
-                    <h3>project name</h3>
-                    <div>project image</div>
+                <div id="project2" class="projects col-sm-6 col-lg-3">
+                    <img src="meditateApp.jpg" class="img-fluid">
+                    <h3>Meditation App</h3>
+                    <h6>under construction &#128295</h6>
                     <div class="project-links">
-                        <a href="#"><p>see in action</p></a>
-                        <a href="#"><p>see on github</p></a>
+                        <!-- <a href="#"><p>see in action</p></a> -->
+                        <a href="https://github.com/whitneywind/meditate-bg/tree/main/med-app" target="_blank"><p>see on github</p></a>
                     </div>
                 </div>
 
-                <div id="project3" class="projects col-sm">
-                    <h3>project name</h3>
-                    <div>project image</div>
+                <div id="project3" class="projects col-sm-6 col-lg-3">
+                    <img src="caferecommendApp.jpg" class="img-fluid">
+                    <h3>LA Cafe Tour</h3>
+                    <h6>under construction &#128295</h6>
                     <div class="project-links">
-                        <a href="#"><p>see in action</p></a>
-                        <a href="#"><p>see on github</p></a>
+                      <!-- <a href="#"><p>see in action</p></a> -->
+                        <a href="https://github.com/whitneywind/coffee-rec/tree/main/coffeerec" target="_blank"><p>see on github</p></a>
                     </div>
                 </div>
+                <!-- <div id="project4" class="projects col-sm-6 col-lg-3">
+                    <img src="langDiary.jpg" class="img-fluid">
+                    <h3>Language Diary</h3>
+                    <h6>under construction &#128295</h6>
+                    <div class="project-links">
+                      <a href="#"><p>see in action</p></a>
+                        <a href="https://github.com/whitneywind/langdiary" target="_blank"><p>see on github</p></a>
+                    </div>
+                </div> -->
             </div>
+            <a href="#page3" id="page2arrow"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-down-square" viewbox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.5 2.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
+              </svg>
+            </a>
+        </div>
+    </section>
+
+    <section id="page3">
+        <h2 class="text-center">CONTACT</h2>
+        <hr class="my-3">
+        <div class="text-center" id="contactDiv">
+            <h3>whitneygould8@gmail.com</h3>
+            <a href="https://www.github.com/whitneywind" target="_blank">github</a><br>
+            <a href="https://www.linkedin.com/in/whitney-gould-06062690/" target="_blank">linkedin</a>
         </div>
     </section>
 
