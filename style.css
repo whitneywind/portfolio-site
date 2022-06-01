@@ -63,13 +63,14 @@ h2 {
 #projects-container {
     justify-content: space-around;
     align-items: center;
-    
     margin: 15% auto;
     border-radius: 10px;
 }
+
 .projects {
    text-align: center;
-   
+    max-width: 80vw;
+    margin-bottom: 5vh;
 }
 
 img {
@@ -101,4 +102,5 @@ img {
 
 .project-title {
     padding: 7% 0 5%;
+    
 }
