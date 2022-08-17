@@ -76,7 +76,7 @@ h2 {
 img {
     width: 450px;
     height: 450px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
 
 #page3 {
