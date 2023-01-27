@@ -1,10 +1,10 @@
 * {
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Serif', sans-serif;
 }
 
 body {
-    background-color: #3a58a2;
+    background-color: #234d4d;
     color: white;
     -ms-overflow-style: none; /* Edge, Internet Explorer */
     scrollbar-width: none; /* Firefox */
@@ -29,6 +29,15 @@ nav {
     
     flex-direction: column;
     align-items: center;
+}
+
+#name-display {
+    font-weight: 400;
+}
+
+.lead {
+    font-size: 1.8rem;
+    font-weight: 400;
 }
 
 /* #img-holder {
