@@ -21,7 +21,7 @@ nav {
 
 .jumbotron {
     width: 45%;
-    margin: 10% auto;
+    margin: 5% auto;
     text-align: center;
 }
 
@@ -56,6 +56,16 @@ h2 {
     font-size: 2rem;
 }
 
+.tech-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.tech-container > p {
+    margin: .6rem;
+}
+
 #page2 {
     margin: 25% auto;
 }
@@ -63,7 +73,7 @@ h2 {
 #projects-container {
     justify-content: space-around;
     align-items: center;
-    margin: 15% auto;
+    margin: 12% auto;
     border-radius: 10px;
 }
 
@@ -84,7 +94,7 @@ img {
 }
 
 #page1arrow {
-    margin-top: 16%;
+    margin-top: 13%;
 }
 
 #contactDiv {
